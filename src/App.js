@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
 // import './App.css';
-import NavbarComponent from './components/NavbarComponent';
-import MainContentComponent from './components/MainContentComponent';
-import FooterComponent from './components/FooterComponent';
-
+import MainContentComponent from "./components/templates/MainContentComponent";
+import FooterComponent from "./components/FooterComponent";
+import HeaderComponent from "./components/templates/HeaderFunctionComponent";
 function App() {
   return (
     <div>
-      <NavbarComponent />
-      <MainContentComponent/>
+      <HeaderComponent />
+      <MainContentComponent />
       <FooterComponent />
     </div>
   );
