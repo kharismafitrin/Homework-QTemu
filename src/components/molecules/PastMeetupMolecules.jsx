@@ -1,5 +1,4 @@
 import React from "react";
-import ItemPastMeetUpComponent from "../ItemPastMeetUpComponent";
 import ItemsCardMolecules from "./ItemsCardMolecules";
 import HeadingFour from "../atoms/HeadingFour";
 import AnchorComponent from "../atoms/anchorComponents";
@@ -9,10 +8,8 @@ export default class PastMeetupMolecules extends React.Component {
     return (
       <section className="my-4">
         <div className="d-flex justify-content-between align-items-center">
-          <h4>Past Meetup</h4>
-          <a href="" className=" nav-link text-dark fw-bold">
-            See All
-          </a>
+          <HeadingFour title="Past Meetup" />
+          <AnchorComponent link="See All" />
         </div>
         <div class="d-flex justify-content-between">
           <ItemsCardMolecules
